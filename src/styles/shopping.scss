@@ -1,0 +1,52 @@
+.shopping-container {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.item-container,
+.cart-container {
+  display: flex;
+  flex-flow: column wrap;
+  flex-basis: 50%;
+
+  .cart-total {
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid black;
+    padding: 0.5rem;
+  }
+
+  .cart-empty {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+}
+
+.item {
+  display: flex;
+  padding: 1rem;
+  margin: 0.5rem;
+  justify-content: space-between;
+  border: 1px solid black;
+  flex-flow: row wrap;
+}
+
+.offer-applied-label {
+  border: 1px solid lightgreen;
+  padding: 0.25rem;
+  margin-bottom: 0.5rem;
+  color: green;
+}
+
+.message-visible {
+  visibility: visible;
+  display: flex;
+  justify-content: center;
+  color: green;
+}
+
+.visible-hidden {
+  visibility: hidden;
+}

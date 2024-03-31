@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Apple",
+            "cost": 35,
+            "offerAvailable": null
+        },
+        {
+            "id": 2,
+            "name": "Banana",
+            "cost": 20,
+            "offerAvailable": null
+        },
+        {
+            "id": 3,
+            "name": "Melon",
+            "cost": 50,
+            "offerAvailable": "buyOneGetOneFree"
+        },
+        {
+            "id": 4,
+            "name": "Lime",
+            "cost": 15,
+            "offerAvailable": "threeForPriceOfTwo"
+        }
+    ]
+}
